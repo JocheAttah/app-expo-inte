@@ -74,11 +74,11 @@ const TestScreen = () => {
         paddingHorizontal: 20,
         backgroundColor: '#fff',
         flex: 1,
+        paddingBottom: 300,
+      }}
+      contentContainerStyle={{
         paddingBottom: 100,
       }}
-      //   contentContainerStyle={{
-      //     flex: 1,
-      //   }}
     >
       {/* Page Title */}
       <View style={{ marginTop: 56 }}>
@@ -803,7 +803,7 @@ const TestScreen = () => {
             justifyContent: 'center',
             alignItems: 'center',
             borderRadius: 8,
-            marginBottom: 100,
+            // marginBottom: 100,
           }}
         >
           <Text style={{ fontFamily: 'AvenirBold', color: 'white' }}>
